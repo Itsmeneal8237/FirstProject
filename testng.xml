@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Afour Test Automation Test Suite">
+
+	<test thread-count="2" name="Afour Test Cases" parallel="classes">
+		<classes>
+			<class name="com.qa.testcases.googleSearchTest"></class>
+			<class name="com.qa.testcases.fightTraderTest"></class>
+			
+
+		</classes>
+	</test>
+</suite>
